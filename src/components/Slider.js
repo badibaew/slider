@@ -7,14 +7,15 @@ export default class AutoPlay extends Component {
         const settings = {
             dots: false,
             infinite: true,
+            centerMode: true,
             slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay: false,
-            speed: 2000,
-            autoplaySpeed: 2000,
+            slidesToScroll: 4,
+            autoplay: true,
+            speed: 4000,
+            autoplaySpeed: 4000,
             cssEase: "linear",
             arrows: false,
-            centerMode: true,
+            className: "center",
             centerPadding: "60px"
         };
         return (
